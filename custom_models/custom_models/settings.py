@@ -51,6 +51,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'custom_models.urls'
+AUTH_USER_MODEL = 'myapp.CustomUser'
+
 
 TEMPLATES = [
     {
