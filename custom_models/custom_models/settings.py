@@ -51,7 +51,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'custom_models.urls'
-AUTH_USER_MODEL = 'myapp.CustomUser'
+
+AUTH_USER_MODEL = 'myapp.CustomUser' # telling django this is my authentication model
 
 
 TEMPLATES = [
